@@ -1,0 +1,9 @@
+Fabric
+bandit
+flake8
+grip
+jedi
+pycodestyle
+pydocstyle
+pylint
+restview
