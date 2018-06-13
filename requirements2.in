@@ -1,0 +1,13 @@
+# Copyright (c) The Regents of the University of California, Davis campus. All rights reserved.
+# 
+Fabric
+bandit
+flake8
+grip
+jedi
+pycodestyle
+pydocstyle
+pylint
+restview
+virtualenv
+wsgiref
