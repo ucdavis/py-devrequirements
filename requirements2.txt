@@ -67,4 +67,6 @@ webencodings==0.5.1       # via html5lib
 werkzeug==0.14.1          # via flask
 wrapt==1.10.11            # via astroid
 wsgiref==0.1.2
-python
+python                    # via mercurial
+roman                     # via mercurial
+mercurial                 # via MacPorts
