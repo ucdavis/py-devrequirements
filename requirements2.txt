@@ -70,3 +70,4 @@ wsgiref==0.1.2
 python                    # via mercurial
 roman                     # via mercurial
 mercurial                 # via MacPorts
+python-ctags              # via MacPorts
