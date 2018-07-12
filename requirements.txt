@@ -37,7 +37,7 @@ markdown==2.6.11          # via grip
 markupsafe==1.0           # via jinja2
 mccabe==0.6.1             # via flake8, pylint
 paramiko==2.4.1           # via fabric
-parso==0.3.0              # via jedi
+parso==0.3.1              # via jedi
 path-and-address==2.0.1   # via grip
 pbr==4.1.0                # via stevedore
 pip-tools==2.0.2
@@ -49,7 +49,7 @@ pyflakes==1.6.0           # via flake8
 pygments==2.2.0           # via grip, readme-renderer, restview
 pylint==1.9.2
 pynacl==1.2.1             # via paramiko
-pyyaml==3.12              # via bandit
+pyyaml==3.13              # via bandit
 readme-renderer==21.0     # via restview
 requests==2.19.1          # via grip
 restview==2.9.1
