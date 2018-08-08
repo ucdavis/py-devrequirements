@@ -47,7 +47,7 @@ pycparser==2.18           # via cffi
 pydocstyle==2.1.1
 pyflakes==1.6.0           # via flake8
 pygments==2.2.0           # via grip, readme-renderer, restview
-pylint==2.1.0
+pylint==2.1.1
 pynacl==1.2.1             # via paramiko
 pyyaml==3.13              # via bandit
 readme-renderer==21.0     # via restview
