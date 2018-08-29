@@ -9,7 +9,7 @@ astroid==2.0.4            # via pylint
 bandit==1.5.0
 bcrypt==3.1.4             # via paramiko
 bleach==2.1.4             # via readme-renderer
-certifi==2018.8.13        # via requests
+certifi==2018.8.24        # via requests
 cffi==1.11.5              # via bcrypt, cmarkgfm, cryptography, pynacl
 chardet==3.0.4            # via requests
 click==6.7                # via flask, pip-tools
