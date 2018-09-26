@@ -13,7 +13,7 @@ bleach==2.1.4             # via readme-renderer
 certifi==2018.8.24        # via requests
 cffi==1.11.5              # via bcrypt, cmarkgfm, cryptography, pynacl
 chardet==3.0.4            # via requests
-click==6.7                # via flask
+click==7.0                # via flask
 cmarkgfm==0.4.2           # via readme-renderer
 configparser==3.5.0       # via flake8, pydocstyle, pylint
 cryptography==2.3.1       # via fabric, paramiko
@@ -37,7 +37,7 @@ itsdangerous==0.24        # via flask
 jedi==0.12.1
 jinja2==2.10              # via flask
 lazy-object-proxy==1.3.1  # via astroid
-markdown==2.6.11          # via grip
+markdown==3.0.1           # via grip
 markupsafe==1.0           # via jinja2
 mccabe==0.6.1             # via flake8, pylint
 paramiko==2.4.2           # via fabric
