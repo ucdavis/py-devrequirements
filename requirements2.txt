@@ -9,7 +9,7 @@ astroid==1.6.5            # via pylint
 backports.functools-lru-cache==1.5  # via astroid, pylint
 bandit==1.5.1
 bcrypt==3.1.4             # via paramiko
-bleach==2.1.4             # via readme-renderer
+bleach==3.0.1             # via readme-renderer
 certifi==2018.8.24        # via requests
 cffi==1.11.5              # via bcrypt, cmarkgfm, cryptography, pynacl
 chardet==3.0.4            # via requests
@@ -28,7 +28,6 @@ futures==3.2.0            # via isort
 gitdb2==2.0.4             # via gitpython
 gitpython==2.1.11         # via bandit
 grip==4.5.2
-html5lib==1.0.1           # via bleach
 idna==2.7                 # via cryptography, requests
 invoke==1.2.0             # via fabric
 ipaddress==1.0.22         # via cryptography
@@ -57,13 +56,13 @@ readme-renderer==22.0     # via restview
 requests==2.19.1          # via grip
 restview==2.9.1
 singledispatch==3.4.0.3   # via astroid, pylint
-six==1.11.0               # via astroid, bandit, bcrypt, bleach, cryptography, html5lib, pydocstyle, pylint, pynacl, readme-renderer, singledispatch, stevedore
+six==1.11.0               # via astroid, bandit, bcrypt, bleach, cryptography, pydocstyle, pylint, pynacl, readme-renderer, singledispatch, stevedore
 smmap2==2.0.4             # via gitdb2
 snowballstemmer==1.2.1    # via pydocstyle
 stevedore==1.29.0         # via bandit
 urllib3==1.23             # via requests
 virtualenv==16.0.0
-webencodings==0.5.1       # via html5lib
+webencodings==0.5.1       # via bleach
 werkzeug==0.14.1          # via flask
 wrapt==1.10.11            # via astroid
 wsgiref==0.1.2
