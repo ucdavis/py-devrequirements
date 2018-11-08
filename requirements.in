@@ -6,7 +6,7 @@ flake8
 grip
 jedi
 pycodestyle
+pycrypto
 pydocstyle
 pylint
-pip-tools
 restview
