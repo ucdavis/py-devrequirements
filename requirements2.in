@@ -9,7 +9,7 @@ pycodestyle
 pycrypto
 pydocstyle
 pylint
-pyyaml==3.13.0            # via MacPorts
+pyyaml==5.1            # via MacPorts
 restview
 virtualenv
 wsgiref
