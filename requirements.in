@@ -1,12 +1,21 @@
 # Copyright (c) The Regents of the University of California, Davis campus. All rights reserved.
-# 
-Fabric
+#
 bandit
+coverage
+django-debug-toolbar
+django-types
+djhtml
+djlint
+fabric
 flake8
-grip
 jedi
+jedi-language-server
+mypy
+neovim
 pycodestyle
-pycrypto
 pydocstyle
+pyjslint
 pylint
+pyyaml
+reorder-python-imports
 restview

@@ -1,6 +1,7 @@
 # py-devrequirements
 
-> pip install -r requirements.txt
+> pip install -U pip setuptools wheel pip-tools
+> pip-sync requirements.txt
 
 # License
 
