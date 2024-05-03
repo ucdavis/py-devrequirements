@@ -183,7 +183,7 @@ tomli==2.0.1
     #   pylint
 tomlkit==0.12.4
     # via pylint
-tqdm==4.66.2
+tqdm==4.66.3
     # via djlint
 types-psycopg2==2.9.21.20240311
     # via django-types
