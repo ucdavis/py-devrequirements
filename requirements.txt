@@ -45,7 +45,7 @@ deprecated==1.2.14
     # via fabric
 dill==0.3.8
     # via pylint
-django==5.0.6
+django==5.0.7
     # via django-debug-toolbar
 django-debug-toolbar==4.3.0
     # via -r requirements.in
