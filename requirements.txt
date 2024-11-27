@@ -4,19 +4,19 @@
 #
 #    pip-compile requirements.in
 #
-astroid==3.2.4
+astroid==3.3.5
     # via pylint
 attrs==24.2.0
     # via
     #   cattrs
     #   lsprotocol
-bandit==1.7.9
+bandit==1.7.10
     # via -r requirements.in
-bcrypt==4.2.0
+bcrypt==4.2.1
     # via paramiko
-bleach==6.1.0
+bleach==6.2.0
     # via readme-renderer
-cattrs==24.1.0
+cattrs==24.1.2
     # via
     #   jedi-language-server
     #   lsprotocol
@@ -27,13 +27,13 @@ cffi==1.17.1
     #   pynacl
 classify-imports==4.2.0
     # via reorder-python-imports
-cryptography==43.0.1
+cryptography==43.0.3
     # via paramiko
 decorator==5.1.1
     # via fabric
-deprecated==1.2.14
+deprecated==1.2.15
     # via fabric
-dill==0.3.8
+dill==0.3.9
     # via pylint
 docstring-to-markdown==0.15
     # via jedi-language-server
@@ -47,17 +47,17 @@ fabric==3.2.2
     # via -r requirements.in
 flake8==7.1.1
     # via -r requirements.in
-greenlet==3.0.3
+greenlet==3.1.1
     # via pynvim
 invoke==2.2.0
     # via fabric
 isort==5.13.2
     # via pylint
-jedi==0.19.1
+jedi==0.19.2
     # via
     #   -r requirements.in
     #   jedi-language-server
-jedi-language-server==0.41.4
+jedi-language-server==0.42.0
     # via -r requirements.in
 lsprotocol==2023.0.1
     # via
@@ -71,21 +71,21 @@ mccabe==0.7.0
     #   pylint
 mdurl==0.1.2
     # via markdown-it-py
-msgpack==1.0.8
+msgpack==1.1.0
     # via pynvim
-mypy==1.11.2
+mypy==1.13.0
     # via -r requirements.in
 mypy-extensions==1.0.0
     # via mypy
 neovim==0.3.1
     # via -r requirements.in
-paramiko==3.4.1
+paramiko==3.5.0
     # via fabric
 parso==0.8.4
     # via jedi
 pbr==6.1.0
     # via stevedore
-platformdirs==4.2.2
+platformdirs==4.3.6
     # via pylint
 pycodestyle==2.12.1
     # via
@@ -106,11 +106,11 @@ pygments==2.18.0
     #   rich
 pyjslint==0.3.4
     # via -r requirements.in
-pylint==3.2.7
+pylint==3.3.1
     # via -r requirements.in
 pynacl==1.5.0
     # via paramiko
-pynvim==0.5.0
+pynvim==0.5.2
     # via neovim
 pyyaml==6.0.2
     # via
@@ -118,19 +118,17 @@ pyyaml==6.0.2
     #   bandit
 readme-renderer==36.0
     # via restview
-reorder-python-imports==3.13.0
+reorder-python-imports==3.14.0
     # via -r requirements.in
-restview==3.0.1
+restview==3.0.2
     # via -r requirements.in
-rich==13.8.0
+rich==13.9.4
     # via bandit
-six==1.16.0
-    # via bleach
 snowballstemmer==2.2.0
     # via pydocstyle
-stevedore==5.3.0
+stevedore==5.4.0
     # via bandit
-tomli==2.0.1
+tomli==2.1.0
     # via
     #   mypy
     #   pylint
@@ -141,7 +139,9 @@ typing-extensions==4.12.2
     #   astroid
     #   cattrs
     #   mypy
+    #   pynvim
+    #   rich
 webencodings==0.5.1
     # via bleach
-wrapt==1.16.0
+wrapt==1.17.0
     # via deprecated
