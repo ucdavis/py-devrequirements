@@ -4,13 +4,13 @@
 #
 #    pip-compile requirements.in
 #
-astroid==3.3.5
+astroid==3.3.6
     # via pylint
 attrs==24.2.0
     # via
     #   cattrs
     #   lsprotocol
-bandit==1.7.10
+bandit==1.8.0
     # via -r requirements.in
 bcrypt==4.2.1
     # via paramiko
@@ -27,7 +27,7 @@ cffi==1.17.1
     #   pynacl
 classify-imports==4.2.0
     # via reorder-python-imports
-cryptography==43.0.3
+cryptography==44.0.0
     # via paramiko
 decorator==5.1.1
     # via fabric
@@ -106,7 +106,7 @@ pygments==2.18.0
     #   rich
 pyjslint==0.3.4
     # via -r requirements.in
-pylint==3.3.1
+pylint==3.3.2
     # via -r requirements.in
 pynacl==1.5.0
     # via paramiko
@@ -128,7 +128,7 @@ snowballstemmer==2.2.0
     # via pydocstyle
 stevedore==5.4.0
     # via bandit
-tomli==2.1.0
+tomli==2.2.1
     # via
     #   mypy
     #   pylint
