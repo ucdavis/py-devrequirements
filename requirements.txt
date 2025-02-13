@@ -6,11 +6,11 @@
 #
 astroid==3.3.8
     # via pylint
-attrs==24.3.0
+attrs==25.1.0
     # via
     #   cattrs
     #   lsprotocol
-bandit==1.8.0
+bandit==1.8.2
     # via -r requirements.in
 bcrypt==4.2.1
     # via paramiko
@@ -27,11 +27,11 @@ cffi==1.17.1
     #   pynacl
 classify-imports==4.2.0
     # via reorder-python-imports
-cryptography==44.0.0
+cryptography==44.0.1
     # via paramiko
 decorator==5.1.1
     # via fabric
-deprecated==1.2.15
+deprecated==1.2.18
     # via fabric
 dill==0.3.9
     # via pylint
@@ -51,7 +51,7 @@ greenlet==3.1.1
     # via pynvim
 invoke==2.2.0
     # via fabric
-isort==5.13.2
+isort==6.0.0
     # via pylint
 jedi==0.19.2
     # via
@@ -73,17 +73,17 @@ mdurl==0.1.2
     # via markdown-it-py
 msgpack==1.1.0
     # via pynvim
-mypy==1.14.1
+mypy==1.15.0
     # via -r requirements.in
 mypy-extensions==1.0.0
     # via mypy
 neovim==0.3.1
     # via -r requirements.in
-paramiko==3.5.0
+paramiko==3.5.1
     # via fabric
 parso==0.8.4
     # via jedi
-pbr==6.1.0
+pbr==6.1.1
     # via stevedore
 platformdirs==4.3.6
     # via pylint
@@ -106,7 +106,7 @@ pygments==2.19.1
     #   rich
 pyjslint==0.3.4
     # via -r requirements.in
-pylint==3.3.3
+pylint==3.3.4
     # via -r requirements.in
 pynacl==1.5.0
     # via paramiko
@@ -143,5 +143,8 @@ typing-extensions==4.12.2
     #   rich
 webencodings==0.5.1
     # via bleach
-wrapt==1.17.0
+wrapt==1.17.2
     # via deprecated
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools
