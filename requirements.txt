@@ -4,19 +4,19 @@
 #
 #    pip-compile requirements.in
 #
-astroid==3.3.8
+astroid==3.3.9
     # via pylint
-attrs==25.1.0
+attrs==25.3.0
     # via
     #   cattrs
     #   lsprotocol
-bandit==1.8.2
+bandit==1.8.3
     # via -r requirements.in
-bcrypt==4.2.1
+bcrypt==4.3.0
     # via paramiko
 bleach==6.2.0
     # via readme-renderer
-cattrs==24.1.2
+cattrs==24.1.3
     # via
     #   jedi-language-server
     #   lsprotocol
@@ -27,15 +27,15 @@ cffi==1.17.1
     #   pynacl
 classify-imports==4.2.0
     # via reorder-python-imports
-cryptography==44.0.1
+cryptography==44.0.2
     # via paramiko
-decorator==5.1.1
+decorator==5.2.1
     # via fabric
 deprecated==1.2.18
     # via fabric
-dill==0.3.9
+dill==0.4.0
     # via pylint
-docstring-to-markdown==0.15
+docstring-to-markdown==0.16
     # via jedi-language-server
 docutils==0.21.2
     # via
@@ -45,19 +45,21 @@ exceptiongroup==1.2.2
     # via cattrs
 fabric==3.2.2
     # via -r requirements.in
-flake8==7.1.1
+flake8==7.2.0
     # via -r requirements.in
-greenlet==3.1.1
+greenlet==3.2.0
     # via pynvim
+importlib-metadata==8.6.1
+    # via docstring-to-markdown
 invoke==2.2.0
     # via fabric
-isort==6.0.0
+isort==6.0.1
     # via pylint
 jedi==0.19.2
     # via
     #   -r requirements.in
     #   jedi-language-server
-jedi-language-server==0.43.1
+jedi-language-server==0.44.0
     # via -r requirements.in
 lsprotocol==2023.0.1
     # via
@@ -85,9 +87,9 @@ parso==0.8.4
     # via jedi
 pbr==6.1.1
     # via stevedore
-platformdirs==4.3.6
+platformdirs==4.3.7
     # via pylint
-pycodestyle==2.12.1
+pycodestyle==2.13.0
     # via
     #   -r requirements.in
     #   flake8
@@ -95,7 +97,7 @@ pycparser==2.22
     # via cffi
 pydocstyle==6.3.0
     # via -r requirements.in
-pyflakes==3.2.0
+pyflakes==3.3.2
     # via flake8
 pygls==1.3.1
     # via jedi-language-server
@@ -106,7 +108,7 @@ pygments==2.19.1
     #   rich
 pyjslint==0.3.4
     # via -r requirements.in
-pylint==3.3.4
+pylint==3.3.6
     # via -r requirements.in
 pynacl==1.5.0
     # via paramiko
@@ -122,11 +124,11 @@ reorder-python-imports==3.14.0
     # via -r requirements.in
 restview==3.0.2
     # via -r requirements.in
-rich==13.9.4
+rich==14.0.0
     # via bandit
 snowballstemmer==2.2.0
     # via pydocstyle
-stevedore==5.4.0
+stevedore==5.4.1
     # via bandit
 tomli==2.2.1
     # via
@@ -134,10 +136,11 @@ tomli==2.2.1
     #   pylint
 tomlkit==0.13.2
     # via pylint
-typing-extensions==4.12.2
+typing-extensions==4.13.2
     # via
     #   astroid
     #   cattrs
+    #   docstring-to-markdown
     #   mypy
     #   pynvim
     #   rich
@@ -145,6 +148,8 @@ webencodings==0.5.1
     # via bleach
 wrapt==1.17.2
     # via deprecated
+zipp==3.21.0
+    # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
