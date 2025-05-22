@@ -4,7 +4,7 @@
 #
 #    pip-compile requirements.in
 #
-astroid==3.3.9
+astroid==3.3.10
     # via pylint
 attrs==25.3.0
     # via
@@ -27,7 +27,7 @@ cffi==1.17.1
     #   pynacl
 classify-imports==4.2.0
     # via reorder-python-imports
-cryptography==44.0.2
+cryptography==45.0.2
     # via paramiko
 decorator==5.2.1
     # via fabric
@@ -35,21 +35,21 @@ deprecated==1.2.18
     # via fabric
 dill==0.4.0
     # via pylint
-docstring-to-markdown==0.16
+docstring-to-markdown==0.17
     # via jedi-language-server
 docutils==0.21.2
     # via
     #   readme-renderer
     #   restview
-exceptiongroup==1.2.2
+exceptiongroup==1.3.0
     # via cattrs
 fabric==3.2.2
     # via -r requirements.in
 flake8==7.2.0
     # via -r requirements.in
-greenlet==3.2.0
+greenlet==3.2.2
     # via pynvim
-importlib-metadata==8.6.1
+importlib-metadata==8.7.0
     # via docstring-to-markdown
 invoke==2.2.0
     # via fabric
@@ -59,7 +59,7 @@ jedi==0.19.2
     # via
     #   -r requirements.in
     #   jedi-language-server
-jedi-language-server==0.44.0
+jedi-language-server==0.45.1
     # via -r requirements.in
 lsprotocol==2023.0.1
     # via
@@ -77,7 +77,7 @@ msgpack==1.1.0
     # via pynvim
 mypy==1.15.0
     # via -r requirements.in
-mypy-extensions==1.0.0
+mypy-extensions==1.1.0
     # via mypy
 neovim==0.3.1
     # via -r requirements.in
@@ -87,7 +87,7 @@ parso==0.8.4
     # via jedi
 pbr==6.1.1
     # via stevedore
-platformdirs==4.3.7
+platformdirs==4.3.8
     # via pylint
 pycodestyle==2.13.0
     # via
@@ -108,7 +108,7 @@ pygments==2.19.1
     #   rich
 pyjslint==0.3.4
     # via -r requirements.in
-pylint==3.3.6
+pylint==3.3.7
     # via -r requirements.in
 pynacl==1.5.0
     # via paramiko
@@ -126,7 +126,7 @@ restview==3.0.2
     # via -r requirements.in
 rich==14.0.0
     # via bandit
-snowballstemmer==2.2.0
+snowballstemmer==3.0.1
     # via pydocstyle
 stevedore==5.4.1
     # via bandit
@@ -141,6 +141,7 @@ typing-extensions==4.13.2
     #   astroid
     #   cattrs
     #   docstring-to-markdown
+    #   exceptiongroup
     #   mypy
     #   pynvim
     #   rich
