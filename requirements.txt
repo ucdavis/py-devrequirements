@@ -4,13 +4,13 @@
 #
 #    pip-compile requirements.in
 #
-astroid==3.3.10
+astroid==3.3.11
     # via pylint
 attrs==25.3.0
     # via
     #   cattrs
     #   lsprotocol
-bandit==1.8.3
+bandit==1.8.6
     # via -r requirements.in
 bcrypt==4.3.0
     # via paramiko
@@ -27,7 +27,7 @@ cffi==1.17.1
     #   pynacl
 classify-imports==4.2.0
     # via reorder-python-imports
-cryptography==45.0.4
+cryptography==45.0.5
     # via paramiko
 decorator==5.2.1
     # via fabric
@@ -45,7 +45,7 @@ exceptiongroup==1.3.0
     # via cattrs
 fabric==3.2.2
     # via -r requirements.in
-flake8==7.2.0
+flake8==7.3.0
     # via -r requirements.in
 greenlet==3.2.3
     # via pynvim
@@ -73,9 +73,9 @@ mccabe==0.7.0
     #   pylint
 mdurl==0.1.2
     # via markdown-it-py
-msgpack==1.1.0
+msgpack==1.1.1
     # via pynvim
-mypy==1.16.0
+mypy==1.17.0
     # via -r requirements.in
 mypy-extensions==1.1.0
     # via mypy
@@ -91,7 +91,7 @@ pbr==6.1.1
     # via stevedore
 platformdirs==4.3.8
     # via pylint
-pycodestyle==2.13.0
+pycodestyle==2.14.0
     # via
     #   -r requirements.in
     #   flake8
@@ -99,11 +99,11 @@ pycparser==2.22
     # via cffi
 pydocstyle==6.3.0
     # via -r requirements.in
-pyflakes==3.3.2
+pyflakes==3.4.0
     # via flake8
 pygls==1.3.1
     # via jedi-language-server
-pygments==2.19.1
+pygments==2.19.2
     # via
     #   readme-renderer
     #   restview
@@ -138,7 +138,7 @@ tomli==2.2.1
     #   pylint
 tomlkit==0.13.3
     # via pylint
-typing-extensions==4.14.0
+typing-extensions==4.14.1
     # via
     #   astroid
     #   cattrs
