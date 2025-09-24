@@ -16,18 +16,18 @@ bcrypt==4.3.0
     # via paramiko
 bleach==6.2.0
     # via readme-renderer
-cattrs==25.1.1
+cattrs==25.2.0
     # via
     #   jedi-language-server
     #   lsprotocol
     #   pygls
-cffi==1.17.1
+cffi==2.0.0
     # via
     #   cryptography
     #   pynacl
 classify-imports==4.2.0
     # via reorder-python-imports
-cryptography==45.0.5
+cryptography==46.0.1
     # via paramiko
 decorator==5.2.1
     # via fabric
@@ -37,7 +37,7 @@ dill==0.4.0
     # via pylint
 docstring-to-markdown==0.17
     # via jedi-language-server
-docutils==0.21.2
+docutils==0.22.2
     # via
     #   readme-renderer
     #   restview
@@ -47,12 +47,14 @@ fabric==3.2.2
     # via -r requirements.in
 flake8==7.3.0
     # via -r requirements.in
-greenlet==3.2.3
+greenlet==3.2.4
     # via pynvim
 importlib-metadata==8.7.0
     # via docstring-to-markdown
 invoke==2.2.0
-    # via fabric
+    # via
+    #   fabric
+    #   paramiko
 isort==6.0.1
     # via pylint
 jedi==0.19.2
@@ -65,7 +67,7 @@ lsprotocol==2023.0.1
     # via
     #   jedi-language-server
     #   pygls
-markdown-it-py==3.0.0
+markdown-it-py==4.0.0
     # via rich
 mccabe==0.7.0
     # via
@@ -75,27 +77,25 @@ mdurl==0.1.2
     # via markdown-it-py
 msgpack==1.1.1
     # via pynvim
-mypy==1.17.0
+mypy==1.18.2
     # via -r requirements.in
 mypy-extensions==1.1.0
     # via mypy
 neovim==0.3.1
     # via -r requirements.in
-paramiko==3.5.1
+paramiko==4.0.0
     # via fabric
-parso==0.8.4
+parso==0.8.5
     # via jedi
 pathspec==0.12.1
     # via mypy
-pbr==6.1.1
-    # via stevedore
-platformdirs==4.3.8
+platformdirs==4.4.0
     # via pylint
 pycodestyle==2.14.0
     # via
     #   -r requirements.in
     #   flake8
-pycparser==2.22
+pycparser==2.23
     # via cffi
 pydocstyle==6.3.0
     # via -r requirements.in
@@ -110,11 +110,11 @@ pygments==2.19.2
     #   rich
 pyjslint==0.3.4
     # via -r requirements.in
-pylint==3.3.7
+pylint==3.3.8
     # via -r requirements.in
-pynacl==1.5.0
+pynacl==1.6.0
     # via paramiko
-pynvim==0.5.2
+pynvim==0.6.0
     # via neovim
 pyyaml==6.0.2
     # via
@@ -126,11 +126,11 @@ reorder-python-imports==3.15.0
     # via -r requirements.in
 restview==3.0.2
     # via -r requirements.in
-rich==14.0.0
+rich==14.1.0
     # via bandit
 snowballstemmer==3.0.1
     # via pydocstyle
-stevedore==5.4.1
+stevedore==5.5.0
     # via bandit
 tomli==2.2.1
     # via
@@ -138,21 +138,18 @@ tomli==2.2.1
     #   pylint
 tomlkit==0.13.3
     # via pylint
-typing-extensions==4.14.1
+typing-extensions==4.15.0
     # via
     #   astroid
     #   cattrs
+    #   cryptography
     #   docstring-to-markdown
     #   exceptiongroup
     #   mypy
     #   pynvim
-    #   rich
 webencodings==0.5.1
     # via bleach
-wrapt==1.17.2
+wrapt==1.17.3
     # via deprecated
 zipp==3.23.0
     # via importlib-metadata
-
-# The following packages are considered to be unsafe in a requirements file:
-# setuptools
