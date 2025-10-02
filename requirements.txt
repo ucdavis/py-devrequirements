@@ -12,7 +12,7 @@ attrs==25.3.0
     #   lsprotocol
 bandit==1.8.6
     # via -r requirements.in
-bcrypt==4.3.0
+bcrypt==5.0.0
     # via paramiko
 bleach==6.2.0
     # via readme-renderer
@@ -27,7 +27,7 @@ cffi==2.0.0
     #   pynacl
 classify-imports==4.2.0
     # via reorder-python-imports
-cryptography==46.0.1
+cryptography==46.0.2
     # via paramiko
 decorator==5.2.1
     # via fabric
@@ -55,7 +55,7 @@ invoke==2.2.0
     # via
     #   fabric
     #   paramiko
-isort==6.0.1
+isort==6.1.0
     # via pylint
 jedi==0.19.2
     # via
@@ -116,7 +116,7 @@ pynacl==1.6.0
     # via paramiko
 pynvim==0.6.0
     # via neovim
-pyyaml==6.0.2
+pyyaml==6.0.3
     # via
     #   -r requirements.in
     #   bandit
