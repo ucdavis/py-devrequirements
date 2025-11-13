@@ -4,7 +4,7 @@
 #
 #    pip-compile requirements.in
 #
-astroid==4.0.1
+astroid==4.0.2
     # via pylint
 attrs==25.4.0
     # via
@@ -38,7 +38,7 @@ dill==0.4.0
     # via pylint
 docstring-to-markdown==0.17
     # via jedi-language-server
-docutils==0.22.2
+docutils==0.22.3
     # via
     #   readme-renderer
     #   restview
@@ -111,9 +111,9 @@ pygments==2.19.2
     #   rich
 pyjslint==0.3.4
     # via -r requirements.in
-pylint==4.0.2
+pylint==4.0.3
     # via -r requirements.in
-pynacl==1.6.0
+pynacl==1.6.1
     # via paramiko
 pynvim==0.6.0
     # via neovim
@@ -150,7 +150,7 @@ typing-extensions==4.15.0
     #   pynvim
 webencodings==0.5.1
     # via bleach
-wrapt==2.0.0
+wrapt==2.0.1
     # via deprecated
 zipp==3.23.0
     # via importlib-metadata
