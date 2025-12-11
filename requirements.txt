@@ -11,7 +11,7 @@ attrs==25.4.0
     #   cattrs
     #   lsprotocol
     #   pygls
-bandit==1.8.6
+bandit==1.9.2
     # via -r requirements.in
 bcrypt==5.0.0
     # via paramiko
@@ -42,13 +42,13 @@ docutils==0.22.3
     # via
     #   readme-renderer
     #   restview
-exceptiongroup==1.3.0
+exceptiongroup==1.3.1
     # via cattrs
 fabric==3.2.2
     # via -r requirements.in
 flake8==7.3.0
     # via -r requirements.in
-greenlet==3.2.4
+greenlet==3.3.0
     # via pynvim
 importlib-metadata==8.7.0
     # via docstring-to-markdown
@@ -64,6 +64,8 @@ jedi==0.19.2
     #   jedi-language-server
 jedi-language-server==0.46.0
     # via -r requirements.in
+librt==0.7.3
+    # via mypy
 lsprotocol==2025.0.0
     # via
     #   jedi-language-server
@@ -78,7 +80,7 @@ mdurl==0.1.2
     # via markdown-it-py
 msgpack==1.1.2
     # via pynvim
-mypy==1.18.2
+mypy==1.19.0
     # via -r requirements.in
 mypy-extensions==1.1.0
     # via mypy
@@ -90,7 +92,7 @@ parso==0.8.5
     # via jedi
 pathspec==0.12.1
     # via mypy
-platformdirs==4.5.0
+platformdirs==4.5.1
     # via pylint
 pycodestyle==2.14.0
     # via
@@ -111,7 +113,7 @@ pygments==2.19.2
     #   rich
 pyjslint==0.3.4
     # via -r requirements.in
-pylint==4.0.3
+pylint==4.0.4
     # via -r requirements.in
 pynacl==1.6.1
     # via paramiko
@@ -131,7 +133,7 @@ rich==14.2.0
     # via bandit
 snowballstemmer==3.0.1
     # via pydocstyle
-stevedore==5.5.0
+stevedore==5.6.0
     # via bandit
 tomli==2.3.0
     # via
