@@ -4,7 +4,7 @@
 #
 #    pip-compile requirements.in
 #
-astroid==4.0.2
+astroid==4.0.3
     # via pylint
 attrs==25.4.0
     # via
@@ -38,7 +38,7 @@ dill==0.4.0
     # via pylint
 docstring-to-markdown==0.17
     # via jedi-language-server
-docutils==0.22.3
+docutils==0.22.4
     # via
     #   readme-renderer
     #   restview
@@ -50,7 +50,7 @@ flake8==7.3.0
     # via -r requirements.in
 greenlet==3.3.0
     # via pynvim
-importlib-metadata==8.7.0
+importlib-metadata==8.7.1
     # via docstring-to-markdown
 invoke==2.2.1
     # via
@@ -64,7 +64,7 @@ jedi==0.19.2
     #   jedi-language-server
 jedi-language-server==0.46.0
     # via -r requirements.in
-librt==0.7.3
+librt==0.7.7
     # via mypy
 lsprotocol==2025.0.0
     # via
@@ -80,7 +80,7 @@ mdurl==0.1.2
     # via markdown-it-py
 msgpack==1.1.2
     # via pynvim
-mypy==1.19.0
+mypy==1.19.1
     # via -r requirements.in
 mypy-extensions==1.1.0
     # via mypy
@@ -90,7 +90,7 @@ paramiko==4.0.0
     # via fabric
 parso==0.8.5
     # via jedi
-pathspec==0.12.1
+pathspec==1.0.2
     # via mypy
 platformdirs==4.5.1
     # via pylint
@@ -115,7 +115,7 @@ pyjslint==0.3.4
     # via -r requirements.in
 pylint==4.0.4
     # via -r requirements.in
-pynacl==1.6.1
+pynacl==1.6.2
     # via paramiko
 pynvim==0.6.0
     # via neovim
