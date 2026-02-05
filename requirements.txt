@@ -28,7 +28,7 @@ cffi==2.0.0
     #   pynacl
 classify-imports==4.2.0
     # via reorder-python-imports
-cryptography==46.0.3
+cryptography==46.0.4
     # via paramiko
 decorator==5.2.1
     # via fabric
@@ -48,7 +48,7 @@ fabric==3.2.2
     # via -r requirements.in
 flake8==7.3.0
     # via -r requirements.in
-greenlet==3.3.0
+greenlet==3.3.1
     # via pynvim
 importlib-metadata==8.7.1
     # via docstring-to-markdown
@@ -90,7 +90,7 @@ paramiko==4.0.0
     # via fabric
 parso==0.8.5
     # via jedi
-pathspec==1.0.3
+pathspec==1.0.4
     # via mypy
 platformdirs==4.5.1
     # via pylint
@@ -104,7 +104,7 @@ pydocstyle==6.3.0
     # via -r requirements.in
 pyflakes==3.4.0
     # via flake8
-pygls==2.0.0
+pygls==2.0.1
     # via jedi-language-server
 pygments==2.19.2
     # via
@@ -129,7 +129,7 @@ reorder-python-imports==3.16.0
     # via -r requirements.in
 restview==3.0.2
     # via -r requirements.in
-rich==14.2.0
+rich==14.3.2
     # via bandit
 snowballstemmer==3.0.1
     # via pydocstyle
@@ -152,7 +152,7 @@ typing-extensions==4.15.0
     #   pynvim
 webencodings==0.5.1
     # via bleach
-wrapt==2.0.1
+wrapt==2.1.1
     # via deprecated
 zipp==3.23.0
     # via importlib-metadata
