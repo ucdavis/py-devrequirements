@@ -119,6 +119,8 @@ pynacl==1.6.2
     # via paramiko
 pynvim==0.6.0
     # via neovim
+pypandoc==1.17
+    # via -r requirements.in
 pyyaml==6.0.3
     # via
     #   -r requirements.in
