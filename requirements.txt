@@ -4,6 +4,8 @@
 #
 #    pip-compile --no-strip-extras requirements.in
 #
+ast-serialize==0.4.0
+    # via mypy
 astroid==4.0.4
     # via pylint
 attrs==26.1.0
@@ -28,7 +30,7 @@ cffi==2.0.0
     #   pynacl
 classify-imports==4.2.0
     # via reorder-python-imports
-cryptography==47.0.0
+cryptography==48.0.0
     # via paramiko
 decorator==5.2.1
     # via fabric
@@ -64,13 +66,13 @@ jedi==0.19.2
     #   jedi-language-server
 jedi-language-server==0.46.0
     # via -r requirements.in
-librt==0.9.0
+librt==0.11.0
     # via mypy
 lsprotocol==2025.0.0
     # via
     #   jedi-language-server
     #   pygls
-markdown-it-py==4.0.0
+markdown-it-py==4.2.0
     # via rich
 mccabe==0.7.0
     # via
@@ -80,15 +82,15 @@ mdurl==0.1.2
     # via markdown-it-py
 msgpack==1.1.2
     # via pynvim
-mypy==1.20.2
+mypy==2.1.0
     # via -r requirements.in
 mypy-extensions==1.1.0
     # via mypy
 neovim==0.3.1
     # via -r requirements.in
-paramiko==4.0.0
+paramiko==5.0.0
     # via fabric
-parso==0.8.6
+parso==0.8.7
     # via jedi
 pathspec==1.1.1
     # via mypy
@@ -141,7 +143,7 @@ tomli==2.4.1
     # via
     #   mypy
     #   pylint
-tomlkit==0.14.0
+tomlkit==0.15.0
     # via pylint
 typing-extensions==4.15.0
     # via
